@@ -8,4 +8,4 @@ RUN cd /var/www/html/ && \
 	 echo "<?php phpinfo(); ?>" > info.php
 RUN chmod 777 -R  /var/www/html
 EXPOSE 80 443
-RUN /usr/sbin/apachectl start
+#RUN /usr/sbin/apachectl start
